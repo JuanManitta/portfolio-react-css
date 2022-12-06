@@ -5,7 +5,7 @@
 }
 
 .about__img {
-    width: 260px;
+    width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -33,6 +33,7 @@
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    
 }
 
 .about__subtitle {

@@ -54,7 +54,7 @@
 @media screen and (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
-    --h1-font-size: 2.0rem;
+    --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
@@ -115,7 +115,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 10rem 0 2rem;
+  padding: 6rem 0 2rem;
 }
 
 .section__title {
@@ -194,7 +194,7 @@ img {
   }
 
   .section {
-    padding: 1rem 0 4rem;
+    padding: 2rem 0 4rem;
   }
 
   .section__subtitle {
@@ -207,10 +207,6 @@ img {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .container{
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
   :root {
     --big-font-size: 2.25rem;
   }

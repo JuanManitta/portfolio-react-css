@@ -30,12 +30,12 @@ export const Contact = () => {
 
   return (
     <section className="contact section" id='contact'>
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <h2 className="section__title">Ponte en contacto</h2>
+      <span className="section__subtitle">Contactame</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          {/* <h3 className="contact__title">Hablemos</h3> */}
 
           <div className="contact__info">
             <div className="contact__card">
@@ -45,7 +45,7 @@ export const Contact = () => {
               <span className="contact__card-data">manittajuan@gmail.com</span>
 
               <a href="mailto:manittajuan@gmail.com.com" className="contact__button">
-                Write me {" "}
+                Escribime {" "}
                 <i className="bx bx-right-arrow-alt
                 contact__button-icon"></i></a>
             </div>
@@ -57,7 +57,7 @@ export const Contact = () => {
               <span className="contact__card-data">+54 221-409-0204</span>
 
               <a href="https://api.whatsapp.com/send/?phone=542214090204&text&type=phone_number&app_absent=0" className="contact__button">
-                Write me {" "}
+                Escribime {" "}
                 <i className="bx bx-right-arrow-alt
                 contact__button-icon"></i></a>
             </div>
@@ -69,7 +69,7 @@ export const Contact = () => {
               <span className="contact__card-data">Juan Sebastian Manitta</span>
 
               <a href="https://www.linkedin.com/in/juanmanitta/" className="contact__button">
-                Write me {" "}
+                Escribime {" "}
                 <i className="bx bx-right-arrow-alt
                 contact__button-icon"></i></a>
             </div>
@@ -77,13 +77,13 @@ export const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
-          <h3 className="contact__title">Write me yout project</h3>
+        {/* <div className="contact__content">
+          <h3 className="contact__title">Contame tu projecto</h3>
 
           <form ref={form} onSubmit={sendEmail} 
           className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">Nombre</label>
               <input 
                 type="text"
                 name='name'
@@ -101,7 +101,7 @@ export const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Projecto</label>
               <textarea
               name='project'
               cols="30"
@@ -112,7 +112,7 @@ export const Contact = () => {
             </div>
 
               <button className="button button--flex">
-                Send Message
+                Enviar mensaje
                 <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ export const Contact = () => {
             position="bottom-right"
             />
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   )

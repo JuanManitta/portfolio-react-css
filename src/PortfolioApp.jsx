@@ -1,4 +1,4 @@
-import { Header, Home, About, Skills, Services, Portfolio, Contact } from './components'
+import { Header, Home, About, Skills, Services, Portfolio, Contact, Footer, ScrollUp } from './components'
 import './styles.css'
 
 
@@ -16,10 +16,12 @@ export const PortfolioApp = () => {
         <About/>
         <Skills/>
         <Portfolio/>
-        <Services/>
+        {/* <Services/> */}
         <Contact/>
-        
     </main>
+
+        <Footer/>
+        <ScrollUp/>
     </>
   )
 }

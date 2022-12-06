@@ -4,6 +4,8 @@ import javascript from '../../assets/icons/javascript.png'
 import material from '../../assets/icons/material.png'
 import css3 from '../../assets/icons/css3.png'
 import typescript from '../../assets/icons/typescript.png'
+import redux from '../../assets/icons/redux.png'
+import bootstrap from '../../assets/icons/bootstrap.png'
 
 
 export const Frontend = () => {
@@ -23,6 +25,11 @@ export const Frontend = () => {
                 <div className='skills__icon'>
                     <img src={css3} alt="react" />
                     <h3 className="skills__name">CSS</h3>
+                </div>
+
+                <div className='skills__icon'>
+                    <img src={bootstrap} alt="bootstrap" />
+                    <h3 className="skills__name">Bootstrap</h3>
                 </div>
                 
 
@@ -44,6 +51,11 @@ export const Frontend = () => {
                 <div className='skills__icon'>
                     <img src={react} alt="react" />
                     <h3 className="skills__name">React</h3>
+                </div>
+
+                <div className='skills__icon'>
+                    <img src={redux} alt="redux" />
+                    <h3 className="skills__name">Redux</h3>
                 </div>
 
 

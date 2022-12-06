@@ -1,5 +1,9 @@
+.home__nav-ul{
+    display: none;
+}
+
 .home__container {
-    row-gap: 7rem;
+    row-gap: 5rem;
     display: grid;
 }
 
@@ -118,6 +122,8 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
+    
+
     .home__content {
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
@@ -157,6 +163,18 @@
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    .home__nav-ul{
+        display: flex;
+        justify-content: end;
+        gap: 6px;
+        margin-right: 6px;
+        margin-bottom: 20px;
+    }
+    
+    .home__nav-icon{
+        width: 25px;
+    }
+
     .home__content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
@@ -186,6 +204,19 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+
+    .home__nav-ul{
+        display: flex;
+        justify-content: end;
+        gap: 6px;
+        margin-right: 6px;
+        margin-bottom: 20px;
+    }
+    
+    .home__nav-icon{
+        width: 25px;
+    }
+    
     .home__content {
         row-gap: 1.5rem;
     }
