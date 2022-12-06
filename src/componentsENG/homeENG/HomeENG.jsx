@@ -7,7 +7,7 @@ import usa from '../../assets/icons/usa.png'
 
 import "./home.css";
 
-export const Home = ({handleChangeLenguageSpanish, handleChangeLenguageEnglish}) => {
+export const HomeENG = ({handleChangeLenguageSpanish, handleChangeLenguageEnglish}) => {
   return (
     <section className="home section" id="home">
       <nav className="home__nav__lenguage">

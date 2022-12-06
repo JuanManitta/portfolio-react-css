@@ -1,0 +1,7 @@
+export * from './aboutENG'
+export * from './contactENG'
+export * from './footerENG'
+export * from './headerENG'
+export * from './homeENG'
+export * from './portfolioENG'
+export * from './skillsENG'

@@ -5,7 +5,7 @@ import spain from '../../assets/icons/spain.png'
 import usa from '../../assets/icons/usa.png'
 
 
-export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish}) => {
+export const HeaderENG = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish}) => {
     //Change background header
 
     window.addEventListener('scroll', function () {
@@ -51,7 +51,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
                             : 'nav__link'
                         }
                         >
-                            <i className="uil uil-user nav__icon"></i> Acerca de
+                            <i className="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
                     <li className="nav__item">
@@ -61,7 +61,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
                             : 'nav__link'
                         } 
                         >
-                            <i className="uil uil-file nav__icon"></i>Habilidades
+                            <i className="uil uil-file nav__icon"></i>Skills
                         </a>
                     </li>
 
@@ -72,7 +72,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
                             : 'nav__link'
                         } 
                         >
-                            <i className="uil uil-scenery nav__icon"></i>Portafolio
+                            <i className="uil uil-scenery nav__icon"></i>Portfolio
                         </a>
                     </li>
 
@@ -89,7 +89,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
                             : 'nav__link'
                         } 
                         >
-                            <i className="uil uil-message nav__icon"></i>Contacto
+                            <i className="uil uil-message nav__icon"></i>Contact
                         </a>
                     </li>
 

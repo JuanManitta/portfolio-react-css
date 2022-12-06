@@ -1,16 +1,15 @@
 import "./about.css"
 import AboutImg from "../../assets/about.jpg";
 import { Info } from "./Info";
-import CVEspañol from '../../assets/cvEspañol.pdf'
+import CVIngles from '../../assets/cvIngles.pdf'
 
 
-
-export const About = () => {
+export const AboutENG = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">Acerca de mí</h2>
+        <h2 className="section__title">About me</h2>
         <span className="section__subtitle">
-            Mi introducción
+            My introduction
         </span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="" className="about__img" />
@@ -18,13 +17,11 @@ export const About = () => {
                <Info/> 
 
                <p className="about__description">
-                Desarrollador Frontend. <br />
-                Mientras tomo café, me especializo en crear
-                paginas web, aplicaciones web y Landing page
-                con especial enfoque en UI/UX
+               Front End Developer. I specialize in creating web pages, web applications and landing pages with a special focus on UI/UX, 
+               while i drink coffee.
                 </p>
 
-               <a download="" href={CVEspañol} className="button button--flex">Descargar CV
+               <a download="" href={CVIngles} className="button button--flex">Download CV
                <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
