@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Juan</h1>
+        <h1 className="footer__title">Juan Manitta</h1>
 
         <ul className="footer__list">
           <li>
@@ -18,7 +18,7 @@ export const Footer = () => {
           </li>
           
           <li>
-            <a href="#portfolio" className="footer__link">Projectos</a>
+            <a href="#portfolio" className="footer__link">Proyectos</a>
           </li>
 
           <li>
@@ -43,8 +43,8 @@ export const Footer = () => {
           <img src={instagram} alt="instagram" />  
         </a>
         </div>
-        <span className="footer__copy">&#169; Juan Sebastian Manitta. All
-        rights reserved</span>
+        <span className="footer__copy">&#169; Juan Sebastian Manitta. Todos los derechos
+        reservados</span>
       </div>
     </footer>
   )

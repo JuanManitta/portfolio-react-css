@@ -25,7 +25,7 @@ export const HeaderENG = ({handleChangeLenguageEnglish, handleChangeLenguageSpan
     <header className="header">
         <nav className="nav container">
             <a href="" className="nav__logo">
-                Manitta
+                Juan Manitta
             </a>
 
             <div className={Toggle 

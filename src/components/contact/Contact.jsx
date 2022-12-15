@@ -57,7 +57,7 @@ export const Contact = () => {
               <span className="contact__card-data">+54 221-409-0204</span>
 
               <a href="https://api.whatsapp.com/send/?phone=542214090204&text&type=phone_number&app_absent=0" className="contact__button">
-                Escribime {" "}
+                Hablemos {" "}
                 <i className="bx bx-right-arrow-alt
                 contact__button-icon"></i></a>
             </div>
@@ -69,7 +69,7 @@ export const Contact = () => {
               <span className="contact__card-data">Juan Sebastian Manitta</span>
 
               <a href="https://www.linkedin.com/in/juanmanitta/" className="contact__button">
-                Escribime {" "}
+                Conectemos {" "}
                 <i className="bx bx-right-arrow-alt
                 contact__button-icon"></i></a>
             </div>

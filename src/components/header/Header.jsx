@@ -25,7 +25,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
     <header className="header">
         <nav className="nav container">
             <a href="" className="nav__logo">
-                Manitta
+                Juan Manitta
             </a>
 
             <div className={Toggle 
@@ -40,7 +40,7 @@ export const Header = ({handleChangeLenguageEnglish, handleChangeLenguageSpanish
                             : 'nav__link'
                         }
                         >
-                            <i className="uil uil-estate nav__icon"></i> Home
+                            <i className="uil uil-estate nav__icon"></i> Inicio
                         </a>
                     </li>
 

@@ -12,7 +12,7 @@ export const Info = () => {
         <div className="about__box">
             <i className="bx bx-briefcase-alt about__icon"></i>
             <h3 className="about__title">Completados</h3>
-            <span className="about__subtitle">14 + Projectos</span>
+            <span className="about__subtitle">14 + Proyectos</span>
         </div>
 
         <div className="about__box">

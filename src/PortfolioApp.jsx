@@ -1,20 +1,21 @@
 import { useState } from 'react'
+
 import { Header, Home, About, Skills, Services, Portfolio, Contact, Footer, ScrollUp } from './components'
 import { AboutENG, HomeENG, PortfolioENG, ContactENG, HeaderENG, FooterENG, SkillsENG  } from './componentsENG'
+
 import './styles.css'
-
-
-
 
 
 
 export const PortfolioApp = () => {
 
+
+
+
   const [isSpanish, setIsSpanish] = useState(true)
   const [isEnglish, setIsEnglish] = useState(false)
 
   const handleChangeLenguageSpanish = () =>{
-    console.log('hola')
     setIsSpanish(true)
   }
 
@@ -23,10 +24,6 @@ export const PortfolioApp = () => {
   }
   
  
-
-
-
-  
   return (
     <>
     {
@@ -39,8 +36,6 @@ export const PortfolioApp = () => {
         handleChangeLenguageEnglish={handleChangeLenguageEnglish}/>
     }
     
-
-
     {
       isSpanish === true
       ? <main className="main">
@@ -53,6 +48,7 @@ export const PortfolioApp = () => {
             {/* <Services/> */}
             <Contact/>
         </main>
+
       : <main className="main">
             <HomeENG
               handleChangeLenguageSpanish={handleChangeLenguageSpanish}/>  

@@ -56,10 +56,10 @@ export const Data = () => {
         </h1>
         <h3 className="home__subtitle">Front-end Developer</h3>
         <p className="home__description">Soy desarrollador Front-end con experiencia 
-        en UI/UX y en diseño responsive. Estos son mis <b>projectos.</b></p>
+        en UI/UX y en diseño responsive. Estos son mis <b>proyectos.</b></p>
 
         <a href="#contact" className="button button--flex">
-            Decime hola,
+            Decime hola
             <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

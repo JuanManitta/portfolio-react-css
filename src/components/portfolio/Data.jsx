@@ -19,7 +19,7 @@ export const projectsData = [
         image: Work2,
         title: 'Journal',
         category: 'app',
-        demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
+        demo: 'https://journal-app-react-redux-mui.netlify.app'
     },
     {
         id: 3,
@@ -33,14 +33,14 @@ export const projectsData = [
         image: Work4,
         title: 'Christmas Presents',
         category: 'app',
-        demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
+        demo: 'https://christmas-list-react-hooks.netlify.app/'
     },
     {
         id: 5,
         image: Work5,
         title: 'SuperHeroes Wiki',
         category: 'app',
-        demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
+        demo: 'https://super-hero-mv-dc.netlify.app'
     },
     {
         id: 6,
