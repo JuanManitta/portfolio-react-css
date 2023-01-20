@@ -20,26 +20,28 @@ export const Backend = () => {
             <h3 className="skills__name">Node</h3>
         </div>
 
+    {/* <div className='skills__icon'>
+            <img src={mongo} alt="react" />
+            <h3 className="skills__name">MongoDB</h3>
+        </div> */}
 
-        <div className='skills__icon'>
-            <img src={firebase} alt="react" />
-            <h3 className="skills__name">Firebase</h3>
-        </div>
+
+       
         
         
     </div>
 
     <div className="skills__group">
 
-        <div className='skills__icon'>
+        {/* <div className='skills__icon'>
             <img src={express} alt="react" />
             <h3 className="skills__name">Express</h3>
-        </div>
+        </div> */}
 
 
         <div className='skills__icon'>
-            <img src={mongo} alt="react" />
-            <h3 className="skills__name">MongoDB</h3>
+            <img src={firebase} alt="react" />
+            <h3 className="skills__name">Firebase</h3>
         </div>
         
     </div>
