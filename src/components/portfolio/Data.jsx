@@ -4,6 +4,9 @@ import Work3 from '../../assets/work3.png'
 import Work4 from '../../assets/work4.png'
 import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
+import Work7 from '../../assets/work7.png'
+import Work8 from '../../assets/work8.png'
+import Work9 from '../../assets/work9.png'
 
 
 export const projectsData = [
@@ -19,14 +22,14 @@ export const projectsData = [
         image: Work2,
         title: 'Journal',
         category: 'app',
-        demo: 'https://journal-app-react-redux-mui.netlify.app'
+        demo: 'https://journal-app-react-redux-mui.netlify.app/'
     },
     {
         id: 3,
         image: Work3,
         title: 'MEV Herreria',
         category: 'web',
-        demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
+        demo: 'https://juanmanitta.github.io/menvLanding/'
     },
     {
         id: 4,
@@ -48,6 +51,27 @@ export const projectsData = [
         title: 'E-Commerce design ',
         category: 'web',
         demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
+    },
+    {
+        id: 7,
+        image: Work7,
+        title: 'Seleccion Fitness ',
+        category: 'app',
+        demo: 'https://seleccionfitness.netlify.app/'
+    },
+    {
+        id: 8,
+        image: Work8,
+        title: 'Pokemon Battle Types ',
+        category: 'app',
+        demo: 'https://pokemonbattletype.netlify.app/'
+    },
+    {
+        id: 9,
+        image: Work9,
+        title: 'Cinema La Plata',
+        category: 'web',
+        demo: '/'
     },
 ];
 

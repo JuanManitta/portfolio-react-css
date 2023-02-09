@@ -6,13 +6,13 @@ export const Info = () => {
         <div className="about__box about__icon">
             <i className="bx bx-award"></i>
             <h3 className="about__title">Experiencia</h3>
-            <span className="about__subtitle">3 años de trabajo</span>
+            <span className="about__subtitle">2 años de trabajo</span>
         </div>
 
         <div className="about__box">
             <i className="bx bx-briefcase-alt about__icon"></i>
             <h3 className="about__title">Completados</h3>
-            <span className="about__subtitle">14 + Proyectos</span>
+            <span className="about__subtitle">10 + Proyectos</span>
         </div>
 
         <div className="about__box">
