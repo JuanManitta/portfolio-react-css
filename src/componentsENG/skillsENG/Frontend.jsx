@@ -59,10 +59,10 @@ export const Frontend = () => {
                 </div>
 
 
-                {/* <div className='skills__icon'>
+                <div className='skills__icon'>
                     <img src={typescript} alt="react" />
                     <h3 className="skills__name">Typescript</h3>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>

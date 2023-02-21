@@ -7,6 +7,7 @@ import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
 import Work8 from '../../assets/work8.png'
 import Work9 from '../../assets/work9.png'
+import Work10 from '../../assets/work10.png'
 
 
 export const projectsData = [
@@ -18,11 +19,39 @@ export const projectsData = [
         demo: 'https://gimnasiofma.netlify.app',
     },
     {
+        id: 10,
+        image: Work10,
+        title: 'Task Manager App', 
+        category: 'app',
+        demo: 'https://just-task-it.netlify.app/'
+    },
+    {
+        id: 9,
+        image: Work9,
+        title: 'Cinema La Plata',
+        category: 'web',
+        demo: 'https://cinema-la-plata.netlify.app/'
+    },
+    {
+        id: 7,
+        image: Work7,
+        title: 'Selección Fitness',
+        category: 'app',
+        demo: 'https://seleccionfitness.netlify.app/'
+    },
+    {
+        id: 8,
+        image: Work8,
+        title: 'Pokemon Battle Types',
+        category: 'app',
+        demo: 'https://pokemonbattletype.netlify.app/'
+    },
+    {
         id: 2,
         image: Work2,
         title: 'Journal',
         category: 'app',
-        demo: 'https://journal-app-react-redux-mui.netlify.app/'
+        demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
     },
     {
         id: 3,
@@ -51,27 +80,6 @@ export const projectsData = [
         title: 'E-Commerce design ',
         category: 'web',
         demo: 'https://juanmanitta.github.io/Landing-MEV-html-JS-css/'
-    },
-    {
-        id: 7,
-        image: Work7,
-        title: 'Seleccion Fitness ',
-        category: 'app',
-        demo: 'https://seleccionfitness.netlify.app/'
-    },
-    {
-        id: 8,
-        image: Work8,
-        title: 'Pokemon Battle Types ',
-        category: 'app',
-        demo: 'https://pokemonbattletype.netlify.app/'
-    },
-    {
-        id: 9,
-        image: Work9,
-        title: 'Cinema La Plata',
-        category: 'web',
-        demo: '/'
     },
 ];
 
